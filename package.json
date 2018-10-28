@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Botium Sample running in Codesandbox.io",
   "scripts": {
-    "start": "NODE_PATH=./node_modules botium-cli run --convos spec",
+    "start": "NODE_PATH=./node_modules botium-cli emulator browser --emulatorport 8080",
+    "test": "NODE_PATH=./node_modules botium-cli run --convos spec",
     "emulator": "botium-cli emulator"
   },
   "repository": {
