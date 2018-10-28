@@ -1,0 +1,8 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "Botium Codesandbox Sample",
+      "CONTAINERMODE": "samplebot"
+    }
+  }
+}
