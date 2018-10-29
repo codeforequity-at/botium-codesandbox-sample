@@ -1,4 +1,4 @@
-const debug = require('debug')('botium-connector-sampelbot')
+const debug = require('debug')('botium-connector-samplebot')
 
 class BotiumConnectorEcho {
   constructor ({ queueBotSays }) {
