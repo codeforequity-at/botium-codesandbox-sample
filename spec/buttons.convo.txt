@@ -1,4 +1,5 @@
 bot should show buttons
+The bot should present the user some buttons, and Botium validates the button text
 
 #me
 show me some buttons

@@ -1,4 +1,5 @@
 bot should say hello
+The file "hello.utterances.txt" contains a couple of synonyms for saying hello and is referenced with "UTT_HELLO": all possible synonyms are sent to the bot, and any synonym from the list is allowed as answer
 
 #me
 UTT_HELLO

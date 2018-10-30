@@ -1,4 +1,5 @@
 bot should show a picture
+The bot should present the user a picture, and Botium validates the picture name
 
 #me
 show me a picture
