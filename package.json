@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Botium Sample running in Codesandbox.io",
   "scripts": {
-    "start": "NODE_PATH=./bot botium-cli emulator browser --emulatorport 8080 --convos spec",
-    "test": "NODE_PATH=./bot botium-cli run --convos spec",
-    "emulator": "NODE_PATH=./bot botium-cli emulator"
+    "start": "cross-env NODE_PATH=./bot MOCHAWESOME_CODE=false botium-cli run mochawesome --convos spec && node index.js",
+    "emulator": "cross-env NODE_PATH=./bot botium-cli emulator"
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,8 @@
   "homepage": "https://github.com/codeforequity-at/botium-codesandbox-sample#readme",
   "dependencies": {
     "botium-cli": "0.0.27",
-    "debug": "^4.1.0"
+    "cross-env": "^5.2.0",
+    "debug": "^4.1.0",
+    "express": "^4.16.4"
   }
 }
