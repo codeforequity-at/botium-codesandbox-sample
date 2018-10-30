@@ -1,0 +1,8 @@
+bot should show buttons
+
+#me
+show me some buttons
+
+#bot
+Here are some buttons
+BUTTONS First Button|Second Button

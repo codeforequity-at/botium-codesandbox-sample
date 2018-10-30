@@ -1,7 +1,7 @@
-say hello
+bot should say hello
 
 #me
-hi
+UTT_HELLO
 
 #bot
-hi
+UTT_HELLO

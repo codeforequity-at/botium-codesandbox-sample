@@ -1,0 +1,8 @@
+bot should show a picture
+
+#me
+show me a picture
+
+#bot
+Here is a picture
+MEDIA logo.png

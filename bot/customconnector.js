@@ -1,43 +1,21 @@
 const debug = require('debug')('botium-connector-samplebot')
 
-class BotiumConnectorEcho {
+const bot = require('./bot')
+
+class SampleBot {
   constructor ({ queueBotSays }) {
     this.queueBotSays = queueBotSays
   }
 
-  Validate () {
-    debug('Validate called')
-    return Promise.resolve()
-  }
-
-  Build () {
-    debug('Build called')
-    return Promise.resolve()
-  }
-
-  Start () {
-    debug('Start called')
-    return Promise.resolve()
-  }
-
   UserSays (msg) {
-    debug('UserSays called, echo back')
-    const botMsg = { sender: 'bot', sourceData: msg.sourceData, messageText: msg.messageText }
-    this.queueBotSays(botMsg)
-  }
-
-  Stop () {
-    debug('Stop called')
-    return Promise.resolve()
-  }
-
-  Clean () {
-    debug('Clean called')
-    return Promise.resolve()
+    const answer = bot(msg)
+    if (answer) {
+      setTimeout(() => this.queueBotSays(answer), 0)
+    }
   }
 }
 
 module.exports = {
   PluginVersion: 1,
-  PluginClass: BotiumConnectorEcho
+  PluginClass: SampleBot
 }

@@ -1,0 +1,9 @@
+bot should show a card
+
+#me
+show me a card
+
+#bot
+Here is a card
+MEDIA logo.png
+BUTTONS First Button|Second Button
