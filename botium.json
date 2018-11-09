@@ -2,7 +2,7 @@
   "botium": {
     "Capabilities": {
       "PROJECTNAME": "Botium Codesandbox Sample",
-      "CONTAINERMODE": "customconnector"
+      "CONTAINERMODE": "echo"
     }
   }
 }
