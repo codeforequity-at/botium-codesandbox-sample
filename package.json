@@ -1,6 +1,6 @@
 {
   "name": "botium-codesandbox-sample",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Botium Sample running in Codesandbox.io",
   "scripts": {
     "start": "exitzero npm test && node index.js",
@@ -18,11 +18,10 @@
   },
   "homepage": "https://github.com/codeforequity-at/botium-codesandbox-sample#readme",
   "dependencies": {
-    "botium-cli": "0.0.27",
-    "botium-connector-echo": "0.0.1",
-    "cross-env": "^5.2.0",
-    "debug": "^4.1.0",
+    "botium-cli": "latest",
+    "botium-connector-echo": "latest",
+    "cross-env": "^6.0.3",
     "exitzero": "^1.0.1",
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   }
 }
